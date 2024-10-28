@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+@font-face {
+    font-family: 'grafite';
+    src: url('fonte/docallismeonstreet.otf')format('opentype');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+:root {
+    --cor1:#D99962;
+    --cor2:#A65526;
+    --cor3:#403F3D;
+}
+
+h2, h3 {
+    font-family: 'bungee';
+    font-weight: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.sociais h2 {
+    text-decoration: underline;
+    margin-top: -25px;
+}
+
+.img-sociais img{
+    height: 50px;
+    margin-right: 35px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.img-sociais div {
+    text-align: right;
+}
+
+header {
+    background-color: var(--cor1);
+    padding: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+header h1 {
+    color: black;
+    font-family: 'grafite';
+    font-weight: bold;
+    font-size: 50px;
+    margin: -15px 70px 20px 37px;
+    text-align: center;
+    border: 3px solid;
+    width: 160px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+
+header h1:hover {
+    background-color: var(--cor2);
+    transition-duration: 0.5s;
+}
+
+nav  a {
+    padding: 0px 30px 0px 30px;
+    text-decoration: none;
+    font-family: 'bungee';
+    font-weight: normal;
+    color: white;
+    display: inline-block;
+
+
+}
+
+nav a:hover {
+    background-color: var(--cor2);
+    border-radius: 5px;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+main {
+    max-width: 1170px;
+    min-width: 320px;
+    margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+main a::after {
+    content: '\1F517';
+}
+
+#primeiro h2,
+#segundo h2,
+#terceiro h2 {
+    margin: 20px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#segundo h3 {
+    margin: 10px;
+}
+
+#segundo a{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 100px;
+}
+
+.peças {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: var(--cor3);
+    color: white;
+    padding: 30px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.matheus img {
+    border-radius: 20px;
+    margin-left: 25%; 
+    padding-top: 8px;
+}
+
+.matheus h2 {
+    padding-top: 60px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.matheus {
+    display: block;
+}
+
+.cadastro {
+    display: block;
+}
+
+.cadastro h3 {
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.cadastro p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+    form input,
+    button {
+        display: block;
+        margin: 10px auto 0px auto;
+        padding: 10px;
+    }
+
+    form button:hover {
+        background-color: rgb(128, 128, 128);
+    }
