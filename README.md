@@ -1,2 +1,0 @@
-# sitesobreskate
- Site sobre skate
