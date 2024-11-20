@@ -101,11 +101,20 @@
                     <h3>Cadastre-se</h3>
                     <p>Cadastre-se para receber mais noticias sobre o mundo do skate!<p>
 
-                        <form>
-                            <input type="text" placeholder="Nome completo" required>
-                            <input type="email" placeholder="E-mail" required>
-                            <input type="tel" placeholder="Seu telefone (opcional)">
-                            <button type="submit">Cadastrar</button>
+                        <form method="post" autocomplete="on">
+                            <p>
+                                <label for="nome">Nome: </label>
+                                <input type="text" name="nome" id="nome" placeholder="Nome completo" required minlength="5" maxlength="25">
+                            </p>
+                            <p>
+                                <label for="email">E-mail: </label>
+                                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                            </p>
+                            <p>
+                                <label for="tel">Celular: </label>
+                                <input type="tel" name="tel" id="tel" placeholder="(xx)xxxxx-xxxx" minlength="9" maxlength="11">
+                            </p>
+                            <p><button type="submit">Cadastrar</button></p>
                         </form>
                 </div>
         </div>

@@ -186,11 +186,17 @@ footer div{
 }
 
 
-    form input,
-    button {
-        display: block;
-        margin: 10px auto 0px auto;
+    form input {
         padding: 10px;
+    }
+
+    form label {
+        padding-left: 100px;
+    }
+
+    form button {
+        padding: 10px;
+        margin-left: 35%;
     }
 
     form button:hover {
