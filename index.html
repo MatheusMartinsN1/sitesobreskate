@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Skate</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./build/styles/main.css" media="screen and (min-width: 320px) and (max-width: 768px)">
+    <link rel="stylesheet" href="biblioteca/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <div class="sociais">
-            <h1>Sobre Skate</h1>
-            <h2>Siga-me nas <br> redes sociais!</h2>
-        </div>
-        <div class="img-sociais">
-            <div>
-                <a href="https://www.instagram.com/theuz.dcm/" title="Instagram" target="_blank" rel="external"><img src="imagens/instagram.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/profile.php?id=100012692177706" title="FaceBook" target="_blank" rel="external"><img src="imagens/facebook.png" alt="FaceBook"></a>
-            </div>
-        </div>
-        <div>
-            <nav>
-                <a href="#primeiro">Como surgio o skate ?</a>
-                <a href="#segundo">Quais são as peças do skate ?</a>
-                <a href="#terceiro">O que é o Game Of Skate?</a>
+    <header class="navbar navbar-expand-lg ">
+        <div class="container">
+            <h1 >Sobre Skate</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="nav nav-pills ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#primeiro">Como surgio o skate ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#segundo">Quais são as peças do skate ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#terceiro">O que é o Game Of Skate?</a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
-    
+
     <main>
         <article id="primeiro">
             <h2>Como surgio o skate ?</h2>
@@ -38,44 +42,44 @@
             <h2>Quais são as peças do skate ?</h2>
 
                 <h3>Shape</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>O “shape” do skate refere-se à forma e ao design do shape. Ele é fundamental para o desempenho e a manobrabilidade. Os formatos podem variar em vários aspectos shape vêm em diferentes larguras e comprimentos, adaptando-se a diferentes estilos de skate (street, park, vert, etc.).</p> <img src="imagens/shape.png" alt="Shape de skate">
                 </div>
 
                 <h3>Trucks</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>
                     Os trucks do skate são peças essenciais que conectam o shape às rodas e são fundamentais para a manobrabilidade e controle do skate. Os trucks são geralmente feitos de alumínio, o que os torna leves e resistentes. Alguns modelos também possuem componentes em aço para maior durabilidade</p> <img src="imagens/trucks.png" alt="Trucks de skate">
                 </div>
 
                 <h3>Rodas</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>As rodas de skate são uma parte crucial do equipamento, afetando a velocidade, a aderência e o desempenho geral.  A maioria das rodas de skate é feita de uretano, que proporciona uma boa combinação de durabilidade e aderência.</p> <img src="imagens/rodas.png" alt="Rodas de skate">
                 </div>
 
                 <h3>Rolamentos</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p> Os rolamentos de skate são componentes pequenos, mas fundamentais para o desempenho do skate. Os rolamentos permitem que as rodas girem suavemente em torno do eixo, relaxando o atrito e aumentando a velocidade.</p> <img src="imagens/rolamentos.png" alt="Rolamentos de skate">
                 </div>
 
                 <h3>Bases</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>A base de skate, também conhecida como base plate, é a parte dos trucks que se conecta diretamente ao shape do skate. Uma placa de base serve como ponto de fixação dos trucks ao convés. Ela transfere o peso e os movimentos do skatista para os trucks e, consequentemente, para as rodas. </p> <img src="imagens/bases.png" alt="Bases do skate">
                 </div>
 
                 <h3>Amortecedores</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>
                     Os amortecedores de skate, geralmente chamados de "bushings", são componentes importantes dos trucks que ajudam a controlar a flexibilidade e a resposta do skate durante manobras. Os amortecedores permitem que os trucks girem suavemente. Eles absorvem impactos e ajudam a manter a estabilidade durante curvas e manobras.</p> <img src="imagens/amortecedores.png" alt="Amortecedores de skate">
                 </div>
 
                 <h3>Parafusos de Base</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>Os parafusos de base do skate, também conhecidos como parafusos de montagem ou parafusos, são essenciais para fixar os trucks ao shape. Os parafusos de base estão conectando os trucks ao convés, garantindo que as peças permaneçam firmes durante o uso e manobras.</p> <img src="imagens/parafusos.png" alt="Parafusos de base do skate">
                 </div>
 
                 <h3>Lixa</h3>
-                <div class="peças">
+                <div class="pecas">
                     <p>A lixa do skate, também conhecida como griptape, é uma parte fundamental do equipamento, pois fornece aderência e controle. A lixa é colada na parte superior do shape e permite que os pés do skatista se mantenham firmes durante a execução de manobras. </p> <img src="imagens/lixa.png" alt="Lixa de skate">
                 </div>
                 <a href="https://chatgpt.com/" target="_blank" rel="external"><small>Pesquisa feita por AI</small></a>
@@ -102,22 +106,27 @@
                     <p>Cadastre-se para receber mais noticias sobre o mundo do skate!<p>
 
                         <form method="post" autocomplete="on">
-                            <p>
+                        
                                 <label for="nome">Nome: </label>
                                 <input type="text" name="nome" id="nome" placeholder="Nome completo" required minlength="5" maxlength="25">
-                            </p>
-                            <p>
+                            
+                        
                                 <label for="email">E-mail: </label>
                                 <input type="email" name="email" id="email" placeholder="E-mail" required>
-                            </p>
-                            <p>
+                            
+                        
                                 <label for="tel">Celular: </label>
                                 <input type="tel" name="tel" id="tel" placeholder="(xx)xxxxx-xxxx" minlength="9" maxlength="11">
-                            </p>
-                            <p><button type="submit">Cadastrar</button></p>
+                            
+                        <button type="submit">Cadastrar</button>
                         </form>
                 </div>
         </div>
     </footer>
+    <div class="img-sociais">
+        <a href="https://www.instagram.com/theuz.dcm/" title="Instagram" target="_blank" rel="external"><img src="imagens/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100012692177706" title="FaceBook" target="_blank" rel="external"><img src="imagens/facebook.png" alt="FaceBook"></a>
+</div>
+    <script src="biblioteca/bootstrap.bundle.min.js"></script>
 </body>
 </html>

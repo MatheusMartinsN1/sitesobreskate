@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+@font-face {
+    font-family: 'grafite';
+    src: url('../fonte/docallismeonstreet.otf')format('opentype');
+}
+
+:root {
+    --cor1:#D99962;
+    --cor2:#A65526;
+    --cor3:#403F3D;
+}
+
+header {
+    background-color: #A65526;
+}
+
+.container > h1 {
+    padding: 10px;
+    font-family: 'grafite';
+    font-weight: normal;
+}
+
+> h2 {
+    font-size: large;
+    padding-right: 80px;
+}
+
+.img-sociais > a > img {
+    height: 50px;
+}
