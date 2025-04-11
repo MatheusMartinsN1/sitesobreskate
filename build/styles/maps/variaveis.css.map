@@ -1,0 +1,1 @@
+{"version":3,"sources":["variaveis.scss"],"names":[],"mappings":"AAIA,MACI,eACA,eACA","sourcesContent":["$corDeFundo: #D99962;\r\n$corDoTitulo: #A65526;\r\n$corDoTexto: #403F3D;\r\n\r\n:root {\r\n    --cor1:#D99962;\r\n    --cor2:#A65526;\r\n    --cor3:#403F3D;\r\n}"],"file":"../variaveis.css"}

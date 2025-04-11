@@ -1,12 +1,34 @@
+@use 'variaveis.scss';
+
 @font-face {
     font-family: 'grafite';
     src: url(../../assets/fonts/docallismeonstreet.otf) format('opentype');
 }
 
 .header {
-    
+    background-color: variaveis.$corDeFundo;
+
     &__container {
-        font-family: 'grafite', sans-serif;
-        background-color: ;
+        
+        
+        h1 {
+            color: variaveis.$corDoTitulo;
+            font-family: 'grafite', sans-serif;
+            padding: 6px;
+            border: solid 0px black;
+            border-radius: 4px;
+        }
+    }
+
+    .nav {
+        display: block;
+
+        .nav__links {
+            margin: 0px auto;
+
+            .nav__item {
+                text-align: center;
+            }
+        }
     }
 }
