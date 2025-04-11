@@ -1,3 +1,12 @@
-header {
+@font-face {
+    font-family: 'grafite';
+    src: url(../../assets/fonts/docallismeonstreet.otf) format('opentype');
+}
+
+.header {
     
+    &__container {
+        font-family: 'grafite', sans-serif;
+        background-color: ;
+    }
 }
