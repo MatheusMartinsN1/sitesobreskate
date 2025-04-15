@@ -23,10 +23,10 @@
     .nav {
         display: block;
 
-        .nav__links {
+        &__links {
             margin: 0px auto;
 
-            .nav__item {
+            &__item {
                 text-align: center;
             }
         }
@@ -82,3 +82,20 @@
     }
 }
 
+.footer {
+
+    &__container {
+
+        h3 {
+            color: variaveis.$corDoSubTitulo;
+            margin: 10px;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        &__cadastro {
+
+        }
+    }
+}
