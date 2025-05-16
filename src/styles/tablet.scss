@@ -1,5 +1,5 @@
-@use 'variaveis';
 @use 'rules';
+@use 'variaveis';
 
 .header {
     background-color: variaveis.$corDeFundo;
@@ -9,7 +9,7 @@
         h1 {
             color: variaveis.$corDoTitulo;
             font-family: 'grafite', sans-serif;
-            font-size: 40px;
+            font-size: 4.6em;
             padding: 6px;
         }
     }
@@ -45,6 +45,7 @@
             width: 100%;
             padding: 10px;
             margin: 10px;
+            font-size: 1.8em;
             color: variaveis.$corDoSubTitulo;
             text-decoration: underline;
         }
@@ -65,12 +66,17 @@
         }
 
         &__item {
-            margin-top: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 24px 18px 0px;
+
+            p {
+                width: 50vw;
+            }
 
             img {
-                width: 200px;
-                display: block;
-                margin: 0px auto;
+                width: 250px;
             }
         }
     }
@@ -82,6 +88,7 @@
             color: variaveis.$corDoSubTitulo;
             text-align: center;
             margin: 24px 0px;
+            font-size: 2em;
         }
 
     &__container {
@@ -104,6 +111,8 @@
                 }
             }
 
+            
+
             button {
                 display: block;
                 border: none;
@@ -111,7 +120,7 @@
                 background-color: variaveis.$corDeFundo;
                 padding: 8px;
                 margin: 10px auto;
-                width: 50%;
+                width: 50vw;
             }
         }
     }
@@ -125,11 +134,10 @@
                 a {
 
                 img {
-                    width: 50px;
+                    width: 70px;
                     margin: 8px 0px;
                 }
             }
         }
     }
 }
-
