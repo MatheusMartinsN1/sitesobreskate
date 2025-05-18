@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#tel").mask("(00) 00000-0000",{placeholder:"(xx) xxxxx-xxxx"}),$("form").validate({rules:{nome:{required:!0},email:{required:!0,email:!0},tel:{required:!0}},messages:{nome:"Por favor, insira o seu nome!",email:"Por favor, insira o seu E-mail!",tel:"Por favor, insira o seu número de telefone!"}})});

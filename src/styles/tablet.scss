@@ -1,0 +1,145 @@
+@use 'rules';
+@use 'variaveis';
+
+.header {
+    background-color: variaveis.$corDeFundo;
+
+    &__container {
+
+        h1 {
+            color: variaveis.$corDoTitulo;
+            font-family: 'grafite', sans-serif;
+            font-size: 4.6em;
+            padding: 6px;
+        }
+    }
+
+    .nav {
+        display: block;
+
+        &__links {
+            margin: 0px auto;
+
+            &__item {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.main {
+
+    h2 {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px;
+        background: linear-gradient(to right, variaveis.$corDeFundo, transparent);
+        color: variaveis.$corDoSubTitulo;
+    }
+
+    &__articles {
+
+
+        h3 {
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            font-size: 1.8em;
+            color: variaveis.$corDoSubTitulo;
+            text-decoration: underline;
+        }
+
+        p {
+            margin-left: 20px;
+            text-indent: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: variaveis.$corDosLinks;
+        }
+
+        small {
+            margin-left: 18px;
+        }
+
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 50vw);
+
+            p {
+                margin: 0px 20px;
+                text-indent: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            img {
+                display: block;
+                margin: 0px auto;
+                width: 250px;
+            }
+        }
+    }
+}
+
+.footer {
+
+    h3 {
+        color: variaveis.$corDoSubTitulo;
+        text-align: center;
+        margin: 24px 0px;
+        font-size: 2em;
+    }
+
+    &__container {
+
+        p {
+            text-align: center;
+        }
+
+        &__cadastro {
+            display: block;
+
+            &__item {
+                text-align: center;
+                margin: 22px 0px;
+
+                input {
+                    width: 50vw;
+                    padding: 8px;
+                    border: solid 1px #000;
+                }
+            }
+
+
+
+            button {
+                display: block;
+                border: none;
+                border-radius: 4px;
+                background-color: variaveis.$corDeFundo;
+                padding: 8px;
+                margin: 10px auto;
+                width: 50vw;
+            }
+        }
+    }
+
+    .img-sociais {
+        display: flex;
+        justify-content: space-evenly;
+
+        &__item {
+
+            a {
+
+                img {
+                    width: 70px;
+                    margin: 8px 0px;
+                }
+            }
+        }
+    }
+}
