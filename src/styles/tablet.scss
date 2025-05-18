@@ -5,7 +5,7 @@
     background-color: variaveis.$corDeFundo;
 
     &__container {
-        
+
         h1 {
             color: variaveis.$corDoTitulo;
             font-family: 'grafite', sans-serif;
@@ -65,17 +65,19 @@
             margin-left: 18px;
         }
 
-        &__item {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin: 24px 18px 0px;
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 50vw);
 
             p {
-                width: 50vw;
+                margin: 0px 20px;
+                text-indent: 10px;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             img {
+                display: block;
+                margin: 0px auto;
                 width: 250px;
             }
         }
@@ -85,11 +87,11 @@
 .footer {
 
     h3 {
-            color: variaveis.$corDoSubTitulo;
-            text-align: center;
-            margin: 24px 0px;
-            font-size: 2em;
-        }
+        color: variaveis.$corDoSubTitulo;
+        text-align: center;
+        margin: 24px 0px;
+        font-size: 2em;
+    }
 
     &__container {
 
@@ -111,7 +113,7 @@
                 }
             }
 
-            
+
 
             button {
                 display: block;
@@ -131,7 +133,7 @@
 
         &__item {
 
-                a {
+            a {
 
                 img {
                     width: 70px;
