@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <main class="main">
+    <main class="main" data-bs-spy="scroll">
         <h2>Como surgio o skate ?</h2>
         <article class="main__articles" id="primeiro">
             <p>Nascido na Califórnia, nos anos 1950, o skate foi criado por surfistas que não queriam ficar parados
@@ -55,8 +55,9 @@
                     href="https://recreio.com.br/noticias/ciencia/quem-inventou-o-skate.phtml" target="_blank"
                     rel="external" title="Pesquisa feita aqui">aqui!</a></p>
         </article>
+
         <h2>Quais são as peças do skate ?</h2>
-        <article class="main__articles main__articles__grid" id="segundo">
+        <article  class="main__articles main__articles__grid" id="segundo">
 
             <div class="main__articles__item main__articles__grid__item">
                 <h3>Shape</h3>
@@ -139,13 +140,12 @@
 
                 <img src="./build/images/lixa.png" alt="Lixa de skate">
             </div>
-            
+
             <a href="https://chatgpt.com/" target="_blank" rel="external"><small>Pesquisa feita por IA</small></a>
         </article>
         <article class="main__articles" id="terceiro">
             <div>
                 <h2>O que é o Game Of Skate?</h2>
-
                 <p>O Game Of Skate iniciou como uma brincadeira e começou a crescer entre os praticantes do esporte. O
                     impulso para o Game se popularizar ainda mais foi dos skatistas <a
                         href="https://pt.wikipedia.org/wiki/Eric_Koston" target="_blank" rel="external">Erick Koston</a>
@@ -189,7 +189,7 @@
 
                 <div class="footer__container__cadastro__item">
                     <label for="tel">Celular: </label>
-                    <input type="tel" name="tel" id="tel" placeholder="(xx)xxxxx-xxxx" minlength="9" maxlength="11">
+                    <input type="tel" name="tel" id="tel"  minlength="9" maxlength="11">
                 </div>
 
                 <button type="submit">Cadastrar</button>
@@ -217,7 +217,12 @@
 
 
 
-    <script src="biblioteca/bootstrap.bundle.min.js"></script>
+    <script src="./biblioteca/bootstrap.bundle.min.js"></script>
+    <script src="./biblioteca/jquery-3.7.1.min.js"></script>
+    <script src="./biblioteca/jquery.mask.min.js"></script>
+    <script src="./biblioteca/jquery.validate.min.js"></script>
+    <script src="./biblioteca/messages_pt_BR.min.js"></script>
+    <script src="./build/scripts/main.js"></script>
 </body>
 
 </html>
